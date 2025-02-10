@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+.container{
+    background: linear-gradient(76.35deg,#2B0F31 15.89%, #111833 89.75%);
+}
+
+.feature-card {
+    @apply border-2 border-[#306ee8] bg-[#13121F] rounded-2xl w-full sm:w-[400px] h-auto px-6 py-6 sm:px-[42px] sm:py-[24px] 
+           hover:shadow-xl transition duration-200 transform hover:scale-105 flex flex-col justify-between relative;
+  }
+  
+  .feature-card h3 {
+    @apply text-xl sm:text-2xl font-semibold text-[#8CAEF2] mb-2 sm:mb-4;
+  }
+  
+  .feature-card p {
+    @apply text-white text-sm sm:text-base;
+  }
+  
+  .feature-card span {
+    @apply absolute text-3xl sm:text-4xl bottom-4 right-4 text-[#306EE8];
+  }
+
+  
+  .benefit-card {
+    @apply border-2 border-[#306ee8] bg-[#14131F] rounded-2xl w-full sm:w-[400px] h-auto px-6 py-6 sm:px-[42px] sm:py-[24px] 
+           hover:shadow-xl transition duration-200 transform hover:scale-105 flex flex-col justify-between relative;
+  }
+  
+  .benefit-card h3 {
+    @apply text-xl sm:text-2xl font-semibold text-[#8CAEF2] mb-2 sm:mb-4;
+  }
+  
+  .benefit-card p {
+    @apply text-white text-sm sm:text-base;
+  }
+  
+  .benefit-card span {
+    @apply absolute text-3xl sm:text-4xl bottom-4 right-4 text-[#306EE8];
+  }
+  
